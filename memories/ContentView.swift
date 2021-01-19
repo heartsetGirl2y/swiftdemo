@@ -12,7 +12,7 @@ struct cardcontent {
     var emoji:String;
     var isFaceup:Bool;
     var id:Int;
-}
+}	
 //class
 struct ContentView: View {
     let emojiStructList:[cardcontent]=[cardcontent(emoji: "🤯", isFaceup: true,id:0),cardcontent(emoji: "😬", isFaceup: false,id:1),cardcontent(emoji: "🧐", isFaceup: true,id:2),cardcontent(emoji: "🤣", isFaceup: true,id:3)]
